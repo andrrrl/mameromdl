@@ -1,0 +1,26 @@
+{
+  "name": "mameromdl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mameroms.js",
+  "dependencies": {
+    "crawler": "^1.1.1",
+    "htmlparser2": "^3.9.2",
+    "request": "^2.83.0",
+    "slugify": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrrrl/mameromdl.git"
+  },
+  "author": "andrrr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrrrl/mameromdl/issues"
+  },
+  "homepage": "https://github.com/andrrrl/mameromdl#readme"
+}
