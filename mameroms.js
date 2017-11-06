@@ -1,12 +1,13 @@
 // MAME ROM downloader
 
 const process = require('process');
+const os = require('os');
 const fs = require('fs');
 const readline = require('readline');
 const Crawler = require('crawler');
 const slugify = require('slugify');
 
-const ROMS_DIR = './mame/roms/';
+const ROMS_DIR = os.homedir() + '/mame/roms/';
 
 // Base64-encoded site name :P
 const URL = new Buffer('aHR0cDovL3d3dy5jb29scm9tLmNvbS9yb21zL21hbWUv', 'base64').toString('ascii');
