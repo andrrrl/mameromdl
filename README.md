@@ -2,6 +2,8 @@
 MAME ROM downloader
 
 - Usage example: 
-´
-    $ node mameroms.js "tetris"
-´
+
+```
+$ node mameroms.js "tetris"
+
+```
