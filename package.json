@@ -5,8 +5,6 @@
   "main": "mameroms.js",
   "dependencies": {
     "crawler": "^1.1.1",
-    "htmlparser2": "^3.9.2",
-    "request": "^2.83.0",
     "slugify": "^1.2.1"
   },
   "devDependencies": {},

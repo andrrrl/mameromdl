@@ -1,2 +1,7 @@
 # mameromdl
-MAME ROM dl
+MAME ROM downloader
+
+- Usage example: 
+´
+    $ node mameroms.js "tetris"
+´
