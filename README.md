@@ -1,9 +1,9 @@
 # mameromdl
-MAME ROM downloader
+MULTIPLE ROM downloader
 
 - Usage example: 
 
 ```
-$ node mameroms.js "tetris"
+$ node roms.js
 
 ```

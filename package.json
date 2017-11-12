@@ -4,6 +4,7 @@
   "description": "",
   "main": "mameroms.js",
   "dependencies": {
+    "colors": "^1.1.2",
     "crawler": "^1.1.1",
     "slugify": "^1.2.1"
   },
