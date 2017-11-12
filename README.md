@@ -1,4 +1,4 @@
-# mameromdl
+# romdl
 MULTIPLE ROM downloader
 
 - Usage example: 
