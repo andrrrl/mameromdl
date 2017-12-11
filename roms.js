@@ -36,7 +36,7 @@ let letter = '';
 let rquery;
 
 // Relative to $HOME directory
-let ROMS_DIR = '/roms/';
+let ROMS_DIR = '/mame/roms/';
 
 // Base64-encoded site name :P
 const URL = new Buffer('aHR0cDovL3d3dy5jb29scm9tLmNvbS9yb21zLw==', 'base64').toString('ascii');
@@ -175,7 +175,7 @@ function crawlThis() {
 
                                             downloadFile = downloadFile.replace(/action=\"|\"/g, '');
 
-                                            var d2 = new Crawler({
+                                            let d2 = new Crawler({
                                                 encoding: null,
                                                 jQuery: false, // set false to suppress warning message.
                                                 referer: DOWNLOAD_URL + romId.replace(/\//g, ''),
@@ -191,7 +191,7 @@ function crawlThis() {
 
                                             d2.queue({
                                                 uri: downloadFile,
-                                                filename: process.env.HOME + ROMS_DIR + arcade + fileName
+                                                filename: process.env.HOME + ROMS_DIR + fileName
                                             });
                                         }
                                     }
